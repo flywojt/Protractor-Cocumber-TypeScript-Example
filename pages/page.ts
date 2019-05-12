@@ -6,7 +6,7 @@ export type NewablePage<T extends Page> = new () => T;
 export abstract class Page {
   protected url: string;
 
-  public constructor() {}
+  public constructor() { }
 
   public abstract loadCondition(): Promise<boolean>;
 

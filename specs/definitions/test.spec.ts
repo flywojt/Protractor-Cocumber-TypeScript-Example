@@ -5,9 +5,9 @@ import { async } from 'q';
 
 let ah = new AngularHomePage();
 
-Given('I am on AngularIo page', async () => null );
+Given('I am on AngularIo page', async () => null);
 
-When('I type {string} in search box', async (string:string) => {
+When('I type {string} in search box', async (string: string) => {
   await ah.searchPhrase(string);
 });
 

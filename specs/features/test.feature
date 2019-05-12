@@ -1,7 +1,7 @@
 @all @home
-Feature: I am going to validate Calculator App
+Feature: Search engine
 
-Scenario:  Angualar validations
+Scenario:  Searching phrase
 Given I am on AngularIo page
 When I type "protractor" in search box
 Then Search results shows
