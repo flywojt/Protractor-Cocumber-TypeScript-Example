@@ -19,6 +19,11 @@ Before({ tags: '@all', timeout: 10 * 1000 } as HookOptions, async () => {
     .maximize();
 });
 
+Before({ tags: '@home', timeout: 10 * 10000 } as HookOptions, async () => {
+  await pages.angularHomePage.navigate();
+  //await pages.angularHomePage.waitForPage();
+});
+
 
 After({ timeout: 15 * 1000 } as HookOptions, async () => {
   await browser.driver.close();

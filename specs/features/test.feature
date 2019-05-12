@@ -1,8 +1,7 @@
-@all
+@all @home
 Feature: I am going to validate Calculator App
 
 Scenario:  Angualar validations
-Given I will navigate to AngularJs page
-When I clicked on header link
-And you will navigate to angular page
-Then you will enter "test" in search box
+Given I am on AngularIo page
+When I type "protractor" in search box
+Then Search results shows
