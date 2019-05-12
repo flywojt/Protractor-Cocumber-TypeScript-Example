@@ -33,7 +33,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5118000000
+              "duration": 5123000000
             }
           },
           {
@@ -46,7 +46,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2372000000
+              "duration": 2092000000
             }
           },
           {
@@ -59,7 +59,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2528000000
+              "duration": 1449000000
             }
           },
           {
@@ -71,8 +71,7 @@
               "location": "specs/definitions/test.spec.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -85,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3142000000
+              "duration": 3146000000
             }
           },
           {
@@ -96,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 516000000
+              "duration": 521000000
             }
           },
           {
@@ -107,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 93000000
             }
           },
           {
@@ -118,7 +117,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1146000000
+              "duration": 1256000000
             }
           }
         ]
