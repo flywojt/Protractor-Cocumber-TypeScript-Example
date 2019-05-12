@@ -1,0 +1,128 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate Calculator App",
+    "line": 2,
+    "id": "i-am-going-to-validate-calculator-app",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 1
+      }
+    ],
+    "uri": "specs/features/test.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-calculator-app;angualar-validations",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Angualar validations",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks/browser.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I will navigate to AngularJs page",
+            "match": {
+              "location": "specs/definitions/test.spec.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I clicked on header link",
+            "match": {
+              "location": "specs/definitions/test.spec.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "you will navigate to angular page",
+            "match": {
+              "location": "specs/definitions/test.spec.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "you will enter \"test\" in search box",
+            "match": {
+              "location": "specs/definitions/test.spec.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3142000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks/browser.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks/browser.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1146000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

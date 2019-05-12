@@ -1,0 +1,37 @@
+{
+  "name": "ts-selenium-e2e",
+  "version": "1.0.0",
+  "description": "framework for protractor",
+  "scripts": {
+    "test": "npm run build && protractor build/configs/protractor.config.js",
+    "build": "tsc",
+    "protractor-cli": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Wojciech Mucha",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "jasmine": "~3.4.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "multiple-cucumber-html-reporter": "^1.11.6",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "~3.2.2"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^4.0.5",
+    "@types/jasmine": "^3.3.12",
+    "@types/jasminewd2": "2.0.6",
+    "@types/mkdirp": "^0.5.2",
+    "@types/moment": "^2.13.0",
+    "@types/node": "11.13.5"
+  }
+}
